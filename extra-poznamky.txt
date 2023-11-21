@@ -1,0 +1,48 @@
+#tento vikend zkuste pasivne nakoukat videa az do kapitoly operatory(vcetne), preskocte HTML a CSS
+
+#instalace xdebug
+# 1) do wizardu vlozit text z funkce phpinfo();
+# 2) wizard nam doporuci nejakou verzi, kteoru stahneme
+# 3) prohlizec soubor zablokuje, protoze se boji souboru s koncovkou .dll, musite soubor povolit
+# 4) prejmenujte soubor na php_xdebug.dll
+# 5) vlozit nas stazeny soubor do slozky C:/xampp/php/ext 
+# 6) zeditovat konfiguracni soubor php.ini (php.ini najdete v pragramu xampp pod tlacitkem Config)
+# 7) vlozte na konec souboru tento kod
+
+[XDebug]
+zend_extension=xdebug
+xdebug.mode=debug,develop
+xdebug.start_with_request=yes
+
+[PHP]
+output_buffering=off
+implicit_flush=on
+
+# 8) restartovat apache
+
+
+# dalsi uzitecne pluginy, ktere nemuste stahovat staci je v php.ini aktivovat (odstranite strednik za zacatku radku)
+
+extension=gd
+extension=zip
+
+#LOW-LEVEL programing = divame se na programovani do detailu az do urovne procesoru a elektronu
+#HIGH-LEVEL programing = divame se pouze na sytanxi programovaciho jazyka
+
+
+#GIT (verzovaci system)
+#program ktery vam vytvori historii verzi projektu nebo jakehokoliv souboru
+
+#GITHub je internetova sluzba, kam muzeme nasi historii GIT dat a zverejnit
+
+#prace s GITem
+#ctrl + shift + g vyvola ve visual sudio code git menu
+# U - untracked -znamena ze git tento souboir zatim nesleduje
+# A - GIT tento soubor v dalsim commitu/snapshotu/chekpointu zahrne do sledovani
+# M - soubor zmenil od posledniho commitu
+
+#nemuzeme vytvret commit jako annonymni uzivatel
+#musime gitu sdelit nase jmeno a nas email
+#toto jsou prikazy ktere vas idetifikuji
+  git config --global user.email "tonda.truong@seznam.cz"
+  git config --global user.name "Tony Truong"

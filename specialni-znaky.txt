@@ -1,0 +1,12 @@
+# (altgr + x)
+> (altgr + .)
+< (altgr + ,)
+\ (altgr + q)
+$ (altgr + ů)
+{ (altgr + b)
+} (altgr + n)
+% (shift + =)
+& (altgr + c)
+| (altgr + w) "pipeline" "svislice"
+[ (altgr + f)
+] (altgr + g)
